@@ -1,0 +1,56 @@
+body{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+table{
+  border-collapse:collapse ;
+  border: 0;
+  width: 85%;
+  text-align:center;
+}
+div{
+  color: Black;
+  border: 8px groove black;
+  font-size: 30px;
+}
+h1{
+  color: Black;
+  font-size: 28px;
+  font-weight: bold;
+}
+p{
+  color: Black;
+  font-size: 20px;
+}
+img{
+  border: 2px hidden  ;
+}
+
+a:hover{
+  color: red;
+}
+*{
+            font-family: "Sans-serif",sans-serif;
+      font-size: 20px;
+      color: Black;
+}
+
+th {
+    background-color: #000000;
+    color: white;
+
+}
+ .assignments:nth-child(even) {
+   background-color: lightyellow;
+ }
+ .assignments:nth-child(odd) {
+   background-color: lightslategray;
+ }
+ .left {
+ text-align:left; 
+ }
+ .words {
+  color:red;
+  font-weight:bold;
+ }

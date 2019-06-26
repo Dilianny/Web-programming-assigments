@@ -1,0 +1,48 @@
+body {
+	background-image: url("new.jpg");
+	background-color:white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+ position:sticky;
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: red;
+}
+.active{
+	background-color:#4CAF50;
+}
+h2 {
+	text-align: center;
+}
+header { 
+  display: block;
+} 
+.home{
+	float:right;
+}
+img{
+	float:left;
+}
+.middle {
+  max-width: 700px;
+  max-height:7000px;
+  margin: auto;
+  background-color:white;
+}
